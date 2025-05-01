@@ -5,6 +5,12 @@
   margin: 0;
 }
 
+body, html{
+  max-width: 110rem !important;
+  overflow: hidden;
+  margin: auto;
+}
+
 
 :root{
   --background: #f9f9f9;

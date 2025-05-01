@@ -8,7 +8,7 @@ const AppLayout = () => {
   if (isLoading) return <div></div>;
 
   return (
-    <div className='min-w-[100dvw] min-h-[100dvh] flex'>
+    <div className='w-full min-h-[100dvh] flex'>
       {/* Header */}
       <Outlet />
       {/* Footer */}
