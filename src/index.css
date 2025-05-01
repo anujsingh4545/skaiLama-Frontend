@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+
+:root{
+  --background: #f9f9f9;
+  --foreground: #7E22CE;
+  --primary : #3C3C3C;
+}
+
+.dark{
+  --background: #666368;
+  --foreground: #7E22CE;
+  --primary : #FFFFFF;
+}
+
+
+@theme{
+  --color-background : var(--background);
+  --color-foreground : var(--foreground);
+  --color-primary : var(--primary);
+  --font-roboto: 'Roboto', 'sans-serif';
+}
+
