@@ -5,7 +5,7 @@ import { Outlet} from 'react-router-dom';
 const AppLayout = () => {
   const {isLoading } = useSelector((state) => state.user);
 
-  if (isLoading) return <div></div>;
+  if (isLoading) return <div className=' w-full h-[100dvh] flex items-center justify-center ' >Server Loading...</div>;
 
   return (
     <div className='w-full min-h-[100dvh] flex'>
